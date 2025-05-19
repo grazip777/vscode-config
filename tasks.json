@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🛠 Создать venv и активировать",
+      "type": "shell",
+      "command": "python3 -m venv venv",
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "🚀 Запустить текущий Python файл",
+      "type": "shell",
+      "command": "source venv/bin/activate && python ${file}",
+      "problemMatcher": [],
+      "group": "test"
+    }
+  ]
+}

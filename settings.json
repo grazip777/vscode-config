@@ -1,0 +1,153 @@
+{
+  "background.enabled": true,
+  "background.useDefault": false,
+  "background.editor": {
+    "images": ["file:///Users/graz1p/Documents/ProjectsFolder/nezuko2.png"],
+    "useFront": true,
+    "style": {
+      "background-position": "left bottom", // Размещаем в левом нижнем углу
+      "background-repeat": "no-repeat",
+      "background-attachment": "fixed",
+      "background-size": "300px 300px", // Увеличиваем размер изображения
+      "opacity": 0.5,
+      "transform": "scaleX(-1)", // Зеркалим изображение по горизонтали
+      "position": "absolute", // Абсолютное позиционирование
+      "left": "0", // Ставим изображение в левый край
+      "bottom": "0" // И в нижний край
+    }
+  },
+  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "/",
+  "liveServer.settings.wait": 100,
+  "liveServer.settings.NoBrowser": false,
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "telemetry.telemetryLevel": "off",
+  "update.mode": "manual",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.hover.enabled": true,
+  "editor.parameterHints.enabled": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "html.hover.showDocumentation": true,
+  "css.lint.validProperties": [],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "html": "html",
+    "css": "css"
+  },
+  // Настройки для better-comments — кайф для комментов с цветом
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+
+  // tailwindcss — автокомплит для классов
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "vue": "vue",
+    "html": "html"
+  },
+
+  // eslint — линтер чтоб мозг не взрывался
+  "eslint.enable": true,
+  "eslint.run": "onSave",
+
+  // gitlens — мощь в гите, чтоб видеть кто и зачем
+  "gitlens.currentLine.enabled": true,
+  "gitlens.hovers.enabled": true,
+  "gitlens.codeLens.enabled": true,
+
+  // python — всякие полезные штучки
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "black",
+
+  // auto-close-tag и auto-rename-tag — удобство с тегами HTML/JSX
+  "auto-close-tag.enableAutoCloseTag": true,
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+
+  // spell checker — чтоб не лажать с опечатками
+  "cSpell.enabled": true,
+  "cSpell.language": "en,ru",
+
+  // material icon theme — чтобы иконки были вкусные
+  "material-icon-theme.activeIconPack": "react",
+
+  // openai chatGPT — для прокачки кода
+  "openai.chatgpt.enable": true,
+
+  // jupyter — для удобной работы с ноутбуками
+  "jupyter.askForKernelRestart": false,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "editor.gotoLocation.multipleDefinitions": "peek",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1,
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+  "workbench.startupEditor": "none",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "html-css-class-completion.enable": true,
+  "css.fileExtensions": ["css", "scss", "less"],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python3"
+  
+}
